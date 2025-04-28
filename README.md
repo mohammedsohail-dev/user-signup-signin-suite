@@ -24,9 +24,24 @@ Update Supabase Client Details 🔧
 
 Before running the app, update your Supabase Project URL and Anon Key inside the supabaseCreateClient.js (or wherever you initialize Supabase):
 
+```
 const supabase = createClient('YOUR_SUPABASE_URL', 'YOUR_SUPABASE_ANON_KEY');
-
+```
 Make sure to replace 'YOUR_SUPABASE_URL' and 'YOUR_SUPABASE_ANON_KEY' with your actual credentials from your Supabase dashboard.
+
+also initialise user data by running this sql query
+
+```
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50),
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    createdat TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
 
 ### 1. Install the dependencies
 ```bash
