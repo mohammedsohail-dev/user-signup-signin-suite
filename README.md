@@ -34,14 +34,8 @@ yarn
 # or
 npm install
 
-
-
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
 ```
+
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
@@ -78,16 +72,13 @@ quasar build
 
 ![Signup](https://github.com/user-attachments/assets/d5a43a38-25c2-4f9d-884f-501c7e606696)
 
+![forgotpassword](https://github.com/user-attachments/assets/614273fe-e1e9-4d79-8f06-043ad6c8e82b)
+
 
 ![Landing1](https://github.com/user-attachments/assets/6180567e-0ae3-409f-a121-5009c60b0df4)
 
 
-![forgotpassword](https://github.com/user-attachments/assets/614273fe-e1e9-4d79-8f06-043ad6c8e82b)
-
-
-
 ![Landing2](https://github.com/user-attachments/assets/2ecf27cb-a0cc-467c-bc26-82fdf876c69a)
-
 
 
 ![Landing3](https://github.com/user-attachments/assets/dab35f16-3525-495d-980f-b045a83ec88a)
